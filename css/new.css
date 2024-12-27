@@ -1,0 +1,2835 @@
+/* gl-title */
+.gl-title {
+  margin: 0 0 64px;
+  font-size: 32px;
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 48px;
+  }
+
+.gl-title strong {
+  font-weight: 500;
+  }
+
+/* И НУЖНО БУДЕТ УДАЛИТЬ ЭТОТ КУСОК ЦСС ФАЙЛА, С ПРЕДЫДУЩЕГО БЛОКА, КОТОРЫЙ Я ДЕЛАЛ НАЧАЛО */
+@media (max-width: 1500px) {
+
+/*.gl-title {
+  font-size: 28px;
+  line-height: 38px;
+  }*/
+
+}
+/* И НУЖНО БУДЕТ УДАЛИТЬ ЭТОТ КУСОК ЦСС ФАЙЛА, С ПРЕДЫДУЩЕГО БЛОКА, КОТОРЫЙ Я ДЕЛАЛ КОНЕЦ */
+
+/* 1081 */
+@media (max-width: 1081px) {
+
+.gl-title {
+  margin: 0 0 24px;
+  font-size: 18px;
+  line-height: 28px;
+  }
+
+}
+
+
+/* НОВЫЙ CSS КОПИРОВАТЬ С ЭТОЙ ЧАСТИ */
+
+/* promo-section */
+.promo-section {
+  position: relative;
+  margin: 0 !important;
+  height: 600px;
+  }
+
+.promo-section__content {
+  position: absolute;
+  padding: 60px 20px;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  color: #fff;
+  text-align: center;
+  z-index: 3;
+  }
+
+.promo-section__title {
+  margin: 0 0 12px;
+  color: #fff;
+  font-size: 48px;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 60px;
+  }
+
+.promo-section__content p {
+  margin: 0;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 28px;
+  }
+
+.promo-section__content p br {
+  display: none;
+  }
+
+.promo-section__img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  }
+
+.promo-section__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  vertical-align: top;
+  }
+
+/* advantages-section */
+.advantages-section {
+  margin: 0 !important;
+  padding: 64px 105px;
+  background: #F6F7F9;
+  }
+
+.advantages-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0 64px;
+  margin: 0 auto;
+  max-width: 1694px;
+  }
+
+.advantages-list__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  }
+
+.advantages-list__icon {
+  margin: 0 0 20px;
+  }
+
+.advantages-list__icon img {
+  vertical-align: top;
+  } 
+
+.advantages-list__item p {
+  color: #221D1E;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28px;
+  }
+
+.advantages-list__mobile-br {
+  display: none;
+  }
+
+/* therapy-section */
+.therapy-section {
+  margin: 0 !important;
+  padding: 80px 28px;
+  }
+
+.therapy-section__gl-title {
+  margin: 0 0 80px;
+  }
+
+/* gl-title_gradient-color */
+.gl-title_gradient-color span {
+  display: inline-block;
+  vertical-align: top;
+  background: rgb(240,201,209);
+  background: linear-gradient(90deg, rgba(240,201,209,1) 0%, rgba(143,150,214,1) 100%); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+
+/* therapy-section__col */
+.therapy-section__col {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0 70px;
+  margin: 0 auto;
+  max-width: 1846px;
+  }
+
+/* therapy-section__description */
+.therapy-section__description {
+  margin: -15px 0 0;
+  width: 100%;
+  }
+
+.therapy-section__description .gl-title {
+  margin: 0 0 50px;
+  text-align: left;
+  }
+
+/* therapy-section__text */
+.therapy-section__text {
+  margin: 0 0 64px;
+  }
+
+.therapy-section__text p {
+  margin: 0 0 16px;
+  color: #908E8E;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28px;
+  }
+
+.therapy-section__text p:last-child {
+  margin: 0;
+  }
+
+/* therapy-advantages */
+.therapy-advantages {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 58px;
+  gap: 8px 0;
+  }
+
+.therapy-advantages__item {
+  display: flex;
+  align-items: center;
+  gap: 0 20px;
+  }
+
+.therapy-advantages__icon {
+  flex-shrink: 0;
+  width: 60px;
+  }
+
+.therapy-advantages__icon img {
+  vertical-align: top;
+  }
+
+.therapy-advantages__item p {
+  color: #221D1E;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 28px;
+  }
+
+/* button_catalog-icon */
+.button_catalog-icon span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 10px;
+  }
+
+.button_catalog-icon i {
+  position: relative;
+  display: block;
+  flex-shrink: 0;
+  width: 18px;
+  height: 25px;
+  }
+
+.button_catalog-icon i:before {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: url(../content_img/results-wrinkles/icons/catalog-icon.svg) center no-repeat;
+  background-size: 100%;
+  content: "";
+  transition: .3s opacity;
+  }
+
+.button_catalog-icon:hover i:before {
+  opacity: 0;
+  }
+
+.button_catalog-icon i:after {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: url(../content_img/results-wrinkles/icons/catalog-icon-w.svg) center no-repeat;
+  background-size: 100%;
+  content: "";
+  opacity: 0;
+  transition: .3s opacity;
+  }
+
+.button_catalog-icon:hover i:after {
+  opacity: 1;
+  }
+
+/* therapy-section__btn-panel */
+.therapy-section__btn-panel {
+  display: flex;
+  justify-content: flex-start;
+  }
+
+/* therapy-section__img */
+.therapy-section__img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  }
+
+.therapy-section__img img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 10px;
+  vertical-align: top;
+  }
+
+/* gl-separator */
+.gl-separator {
+  margin: 0 28px;
+  height: 1px;
+  background: #E7E7E7;
+  }
+
+/* hormones-section */
+.hormones-section {
+  margin: 0 !important;
+  padding: 65px 20px 66px;
+  overflow: hidden;
+  }
+
+.hormones-section:after {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 280px;
+  left: 0;
+  bottom: 0;
+  background: #F6F7F9;
+  content: "";
+  }
+
+.hormones-section svg {
+  vertical-align: top;
+  }
+
+.hormones-section__in {
+  position: relative;
+  z-index: 3;
+  }
+
+.hormones-section__gl-title {
+  margin: 0 0 36px;
+  }
+
+/* hormones-section__img */
+.hormones-section__img {
+  position: absolute;
+  width: 650px;
+  top: 120px;
+  left: 50%;
+  transform: translateX(-50%);
+  }
+
+.hormones-section__img img {
+  width: 100%;
+  }
+
+/* hormones-section__line */
+.hormones-section__line {
+  position: absolute;
+  display: flex;
+  align-items: flex-start;
+  top: 176px;
+  left: 50%;
+  transform: translateX(-50%);
+  }
+
+.hormones-section__line-img {
+  width: 775px;
+  height: 226px;
+  }
+
+.hormones-section__line-img .bg,
+.hormones-section__line-mobile-img .bg {
+  stroke: #E6E6E6;
+  }
+
+.hormones-section__line-img .line,
+.hormones-section__line-mobile-img .line {
+  stroke: #6E89C3;
+  transition: all 0.3s linear;
+  }
+
+/* hormones-section__line-mobile */
+.hormones-section__line-mobile {
+  display: none;
+  position: absolute;
+  width: 288px;
+  height: 231px;
+  left: 50%;
+  bottom: 23px;
+  transform: translateX(-50%);
+  }
+
+.hormones-section__line-mobile-img {
+  width: 288px;
+  height: 231px;
+  stroke: #E6E6E6;
+  transition: .3s stroke;
+  }
+
+/* hormones-info */
+.hormones-info {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 0 auto;
+  max-width: 1067px;
+  z-index: 2;
+  }
+
+.hormones-info__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px 0;
+  } 
+
+.hormones-info__item:first-child {
+  padding: 286px 0 0;
+  }
+
+.hormones-info__item:last-child {
+  padding: 286px 0 0;
+  }
+
+.hormones-info__icon {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background: #fff;
+  border-radius: 100%;
+  box-shadow: 0 0 0 2px #E6E6E6 inset;
+  transition: .3s box-shadow;
+  }
+
+.hormones-info__icon img + img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: .3s opacity;
+  }
+
+.hormones-info__item:nth-child(1) .hormones-info__icon img {
+  width: 30px;
+  }
+
+.hormones-info__item:nth-child(2) .hormones-info__icon {
+  order: 1;
+  }
+
+.hormones-info__item:nth-child(2) .hormones-info__icon img {
+  width: 23px;
+  }
+
+.hormones-info__item:nth-child(3) .hormones-info__icon img {
+  width: 20px;
+  }
+
+.hormones-info__item.active .hormones-info__icon {
+  box-shadow: 0 0 0 2px #6E89C3 inset;
+  }
+
+.hormones-info__item.active .hormones-info__icon img {
+  opacity: 0;
+  }
+
+.hormones-info__item.active .hormones-info__icon img + img {
+  opacity: 1;
+  }
+
+.hormones-info__item p {
+  color: #221D1E;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+  line-height: 28px;
+  }
+
+/* antistress-section */
+.antistress-section {
+  margin: 0 !important;
+  padding: 80px 28px;
+  }
+
+.antistress-section__in {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0 64px;
+  margin: 0 auto;
+  max-width: 1846px;
+  }
+
+.antistress-section__img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  }
+
+.antistress-section__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 10px;
+  vertical-align: top;
+  }
+
+.antistress-section__description {
+  margin: -14px 0 0;
+  }
+
+.antistress-section .gl-title {
+  margin: 0 0 48px;
+  text-align: left;
+  }
+
+/* antistress-info */
+.antistress-info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0 20px;
+  margin: 0 0 64px;
+  }
+
+.antistress-info__percent {
+  display: block;
+  margin: 0 0 18px;
+  color: #221D1E;
+  font-size: 46px;
+  font-weight: 300;
+  line-height: 50px;
+  }
+
+.antistress-info p {
+  color: #221D1E;
+  font-size: 18px;
+  line-height: 28px;
+  }
+
+/* university-info */
+.university-info {
+  display: flex;
+  align-items: flex-start;
+  gap: 0 20px;
+  padding: 16px 0 0;
+  border-top: 1px solid #908E8E;
+  } 
+
+.university-info__logo {
+  flex-shrink: 0;
+  width: 143px;
+  }
+
+.university-info__logo img {
+  width: 100%;
+  }
+
+.university-info__text {
+  margin: 0 0 16px;
+  color: #999;
+  font-size: 18px;
+  line-height: 28px;
+  }
+
+.university-info__copy {
+  color: #999;
+  font-size: 18px;
+  line-height: 28px;
+  }
+
+/* insomnia-section */
+.insomnia-section {
+  margin: 0 0 80px !important;
+  padding: 0 !important;
+  }
+
+.insomnia-section__main-content {
+  position: relative;
+  padding: 28px 28px 44px;
+  }
+
+.insomnia-section__main-content:before {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgb(34,29,30);
+  background: linear-gradient(90deg, rgba(34,29,30,0.9) 0%, rgba(34,29,30,0) 100%); 
+  content: "";
+  z-index: 4;
+  }
+
+.insomnia-section__in {
+  position: relative;
+  margin: 0 auto;
+  max-width: 1846px;
+  z-index: 5;
+  }
+
+.insomnia-section__content {
+  max-width: 510px;
+  }
+
+.insomnia-section .gl-title {
+  margin: 0 0 19px;
+  color: #fff;
+  text-align: left;
+  }
+
+.insomnia-section__text {
+  margin: 0 0 33px;
+  }
+
+.insomnia-section__text p {
+  margin: 0 0 7px;
+  color: #fff;
+  font-size: 18px;
+  line-height: 28px;
+  }
+
+.insomnia-section__text p:last-child {
+  margin: 0;
+  }
+
+.insomnia-section__info {
+  padding: 14px 0 0;
+  border-top: 1px solid #A3A3A1;
+  }
+
+.insomnia-section__info p {
+  color: #A3A3A1;
+  font-size: 18px;
+  line-height: 28px;
+  }
+
+/* video */
+.insomnia-section video {
+  position: absolute;
+  min-width: 100%; 
+  min-height: 100%;
+  width: auto; 
+  height: auto; 
+  top: 0;
+  left: 0;
+  vertical-align: top;
+  z-index: 3;
+  }
+
+.insomnia-section__mobile-video {
+  display: none;
+  }
+
+@media (min-aspect-ratio: 16/9) {
+  .insomnia-section video { 
+    height: 300%; 
+    top: -100%;
+    }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .insomnia-section video { 
+    width: 300%; 
+    left: -100%;
+    }
+}
+
+@supports (object-fit: cover) {
+  .insomnia-section video {
+    top: 0; 
+    left: 0;
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+    }
+}
+
+/* insomnia-section__mobile-text */
+.insomnia-section__mobile-text {
+  display: none;
+  padding: 16px 20px 0;
+  }
+
+.insomnia-section__mobile-text p {
+  color: #D1CECD;
+  font-size: 10px;
+  line-height: 12px;
+  }
+
+/* sticky-spacer */
+.sticky-spacer {
+  margin: 0 !important;
+  height: 300vh;
+  }
+
+.sticky-container {
+  display: flex;
+  align-items: center;
+  position: sticky;
+  height: 100vh;
+  top: 0;
+  }
+
+/* innovations-section */
+.innovations-section {
+  padding: 0 28px;
+  width: 100%;
+  background: rgb(255,243,245);
+  background: linear-gradient(90deg, rgba(255,243,245,1) 0%, rgba(110,137,195,1) 100%);
+  overflow: hidden;
+  }
+
+.innovations-section__in {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 50px 0 57px;
+  width: 100%;
+  height: 100vh;
+  }
+
+.innovations-section__description {
+  position: relative;
+  margin: 0 auto;
+  padding: 0 800px 0 0;
+  max-width: 1847px;
+  z-index: 5;
+  }
+
+.innovations__img-mobile {
+  display: none;
+  margin: 0 auto 32px;
+  max-width: 500px;
+  }
+
+.innovations-section .gl-title {
+  margin: 0 0 50px;
+  text-align: left;
+  }
+
+.innovations-section .gl-title__mobile-br {
+  display: none;
+  }
+
+.innovations-section__description p {
+  margin: 0 0 53px;
+  color: #908E8E;
+  font-size: 18px;
+  line-height: 28px;
+  }
+
+.innovations-section__title {
+  margin: 0 0 24px;
+  font-size: 32px;
+  font-weight: 300;
+  text-align: left;
+  line-height: 48px;
+  }
+
+.innovations-section__title br {
+  display: none;
+  }
+
+.innovations-advantages {
+  display: flex;
+  flex-direction: column;
+  gap: 5px 0;
+  }
+
+.innovations-advantages__item {
+  display: flex;
+  align-items: center;
+  gap: 0 20px;
+  }
+
+.innovations-advantages__icon {
+  flex-shrink: 0;
+  width: 60px;
+  }
+
+.innovations-advantages__icon img {
+  width: 100%;
+  }
+
+.innovations-advantages__title {
+  position: relative;
+  display: block;
+  top: -4px;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 28px;
+  }
+
+.innovations__img {
+  position: absolute;
+  width: 572px;
+  height: 100%;
+  top: 0;
+  right: 0;
+  overflow: hidden;
+  }
+
+.innovations__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: left center;
+  }
+
+/* blanket-img */
+.blanket-img {
+  position: absolute;
+  width: 1000px;
+  height: 1000px;
+  top: -190px;
+  right: -444px;
+  transform: scale(1);
+  transition: all 0.5s ease;
+  z-index: 5;
+  }
+
+.blanket-img.active {
+  transform: scale(1.1);
+  }
+
+.blanket-img > div {
+  position: absolute;
+  width: 1000px;
+  height: 1000px;
+  top: 0;
+  left: 0;
+  }
+
+.blanket-img img {
+  width: 100%;
+  vertical-align: top;
+  }
+
+.blanket-img__layer-1 {
+  z-index: 11;
+  }
+
+.blanket-img__layer-2 {
+  z-index: 10;
+  }
+
+.blanket-img__layer-3 {
+  z-index: 9;
+  }
+
+.blanket-img__layer-4 {
+  z-index: 8;
+  }
+
+.blanket-img__layer-5 {
+  z-index: 7;
+  }
+
+.blanket-img__layer-6 {
+  z-index: 6;
+  }
+
+.blanket-img__layer-6 {
+  z-index: 5;
+  }
+
+.blanket-img__layer-7 {
+  z-index: 4;
+  }
+
+.blanket-img__layer-8 {
+  z-index: 3;
+  }
+
+.blanket-img__layer-9 {
+  z-index: 2;
+  }
+
+.blanket-img__layer-10 {
+  z-index: 1;
+  }
+
+/* unique-structure-section */
+.unique-structure-section {
+  margin: 0 !important;
+  padding: 49px 28px 64px;
+  background: #F6F7F9;
+  }
+
+.unique-structure-section__in {
+  margin: 0 auto;
+  max-width: 1847px;
+  }
+
+.unique-structure-section .gl-title {
+  margin: 0 0 19px;
+  } 
+
+.unique-structure-section__text {
+  margin: 0 0 64px;
+  color: #221D1E;
+  font-size: 18px;
+  text-align: center;
+  line-height: 28px;
+  }
+
+/* structure-photos */
+.structure-photos {
+  position: relative;
+  padding: 32px 64px;
+  background: #fff;
+  border-radius: 10px;
+  }
+
+/* quality-sticker */
+.quality-sticker {
+  position: absolute;
+  width: 229px;
+  top: -80px;
+  right: 86px;
+  z-index: 3;
+  }
+
+.quality-sticker img {
+  vertical-align: top;
+  }
+
+/* blanket-gallery */
+.blanket-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0 62px;
+  }
+
+.structure-photos__title {
+  margin: 0 0 32px;
+  font-size: 32px;
+  font-weight: 300;
+  text-align: left;
+  line-height: 28px;
+  }
+
+.blanket-gallery__img {
+  margin: 0 0 8px;
+  }
+
+.blanket-gallery__img img {
+  width: 100%;
+  height: 100%;
+  vertical-align: top;
+  border-radius: 22px;
+  object-fit: cover;
+  opacity: 0.8;
+  }
+
+.blanket-gallery__text {
+  display: block;
+  color: #908E8E;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 28px;
+  }
+
+.blanket-gallery__text.violet-color {
+  color: #6E89C3;
+  }
+
+/* premium-quality-section */
+.premium-quality-section {
+  margin: 0 !important;
+  padding: 49px 28px 64px;
+  background: #fff;
+  }
+
+.premium-quality-section__in {
+  margin: 0 auto;
+  max-width: 1847px;
+  }
+
+.premium-quality-section .gl-title {
+  margin: 0 0 40px;
+  }
+
+/* characteristics-blanket */
+.characteristics-blanket {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0 20px;
+  margin: 0 0 44px;
+  }
+
+.characteristics-blanket__img {
+  margin: 0 0 11px;
+  }
+
+.characteristics-blanket__img img {
+  width: 100%;
+  vertical-align: top;
+  border-radius: 10px;
+  }
+
+.characteristics-blanket__text {
+  display: block;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+  line-height: 28px;
+  }
+
+/* movs-blanket */
+.movs-blanket {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0 20px;
+  }
+
+.movs-blanket__item {
+  position: relative;
+  height: 360px;
+  }
+
+/* video */
+.movs-blanket__item video {
+  position: absolute;
+  min-width: 100%; 
+  min-height: 100%;
+  width: auto; 
+  height: auto; 
+  top: 0;
+  left: 0;
+  vertical-align: top;
+  border-radius: 10px;
+  z-index: 3;
+  }
+
+@media (min-aspect-ratio: 16/9) {
+  .movs-blanket__item video { 
+    height: 300%; 
+    top: -100%;
+    }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .movs-blanket__item video { 
+    width: 300%; 
+    left: -100%;
+    }
+}
+
+@supports (object-fit: cover) {
+  .movs-blanket__item video {
+    top: 0; 
+    left: 0;
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+    }
+}
+
+.movs-blanket__text {
+  position: absolute;
+  display: block;
+  width: 100%;
+  padding: 0 15px;
+  left: 0;
+  bottom: 18px;
+  color: #221D1E;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+  line-height: 28px;
+  z-index: 5;
+  }
+
+/* differences-section */
+.differences-section {
+  margin: 0 !important;
+  padding: 18px 28px 32px;
+  background: #F6F7F9;
+  }
+
+.differences-section__in {
+  margin: 0 auto;
+  max-width: 1847px;
+  }
+
+.differences-section .gl-title {
+  margin: 0 0 38px;
+  }
+
+/* differences-table */
+.differences-table {
+  position: relative;
+  padding: 40px 64px;
+  background: #fff;
+  border-radius: 20px;
+  }
+
+.differences-table:after {
+  position: absolute;
+  display: block;
+  width: calc(33.33% - 118px);
+  top: 104px;
+  right: 52px;
+  bottom: 45px;
+  background: #F6F7FC;
+  border-radius: 10px;
+  content: "";
+  z-index: 3;
+  }
+
+.differences-table__title-col {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  gap: 0 150px;
+  padding: 20px 0;
+  z-index: 5;
+  }
+
+.differences-table__main-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+.differences-table__main-title span {
+  display: block;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 28px;
+  }
+
+.differences-table__content {
+  position: relative;
+  z-index: 5;
+  }
+
+.differences-table__item {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  gap: 0 150px;
+  padding: 20px 0;
+  border-bottom: 1px solid #DFDFDF;
+  }
+
+.differences-table__item:last-child {
+  border-bottom: 0;
+  }
+
+.differences-table__title {
+  display: block;
+  font-size: 18px;
+  text-transform: uppercase;
+  line-height: 28px;
+  }
+
+.differences-table__col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+.differences-table__number {
+  display: block;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  }
+
+.differences-table__number.gay-color {
+  color: #BCBCBC;
+  }
+
+.differences-table__text {
+  display: block;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28px;
+  text-align: center;
+  }
+
+.differences-table__no {
+  display: block;
+  width: 16px;
+  height: 17px;
+  font-size: 0;
+  background: url(../content_img/results-wrinkles/icons/no-icon.svg) center no-repeat;
+  }
+
+.differences-table__yes {
+  position: relative;
+  display: block;
+  width: 30px;
+  height: 30px;
+  font-size: 0;
+  background: #6E89C3;
+  border-radius: 100%;
+  }
+
+.differences-table__yes:before {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: url(../content_img/results-wrinkles/icons/yes-icon.svg) center no-repeat;
+  content: "";
+  }
+
+/* advantages-blanket-section */
+.advantages-blanket-section {
+  position: relative;
+  margin: 0 !important;
+  padding: 80px 28px 16px;
+  background: #fff;
+  }
+
+.advantages-blanket-section:after {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 368px;
+  left: 0;
+  bottom: 0;
+  background: #F6F7FC;
+  content: "";
+  }
+
+.advantages-blanket-section__in {
+  position: relative;
+  margin: 0 auto;
+  max-width: 1847px;
+  z-index: 5;
+  }
+
+/* advantages-blanket-section__img */
+.advantages-blanket-section__img {
+  position: absolute;
+  width: 879px;
+  top: 76px;
+  left: 50%;
+  transform: translateX(-50%);
+  }
+
+.advantages-blanket-section__img img {
+  vertical-align: top;
+  }
+
+/* advantage-list */
+.advantage-list {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 102px 0;
+  margin: 0 0 103px;
+  text-align: center;
+  z-index: 10;
+  }
+
+.advantage-list__item:nth-child(1) {
+  padding: 0 226px 0 46px;
+  }
+
+.advantage-list__item:nth-child(2) {
+  padding: 0 31px 0 226px;
+  }
+
+.advantage-list__item:nth-child(3) {
+  padding: 0 332px 0 0;
+  }
+
+.advantage-list__item:nth-child(4) {
+  padding: 0 0 0 332px;
+  }
+
+.advantage-list__icon {
+  margin: 0 auto 16px;
+  width: 46px;
+  }
+
+.advantage-list__icon img {
+  width: 100%;
+  vertical-align: top;
+  }
+
+.advantage-list__title {
+  margin: 0 0 8px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  }
+
+.advantage-list p {
+  margin: 0 auto;
+  max-width: 360px;
+  color: #221D1E;
+  font-size: 18px;
+  line-height: 28px;
+  }
+
+/* advantages-blanket-section__warning */
+.advantages-blanket-section__warning {
+  display: block;
+  color: #908E8E;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 18px;
+  letter-spacing: 2%;
+  }
+
+/* blanket-info-section */
+.blanket-info-section {
+  margin: 0 !important;
+  padding: 80px 28px 0;
+  }
+
+.blanket-info-section__in {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0 50px;
+  margin: 0 auto;
+  max-width: 1847px;
+  }
+
+/* blanket-photos */
+.blanket-photos {
+  display: grid;
+  grid-template-columns: 134px auto;
+  gap: 0 20px;
+  }
+
+.blanket-photos__col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px 0;
+  }
+
+.blanket-photos__sm-img {
+  width: 100%;
+  height: 134px;
+  overflow: hidden;
+  }
+
+.blanket-photos__sm-img img {
+  width: 100%;
+  height: 100%;
+  vertical-align: top;
+  object-fit: cover;
+  }
+
+.blanket-photos__main-img {
+  height: 418px;
+  overflow: hidden;
+  }
+
+.blanket-photos__main-img img {
+  width: 100%;
+  height: 100%;
+  vertical-align: top;
+  object-fit: cover;
+  }
+
+.blanket-info-section__title {
+  display: flex;
+  align-items: center;
+  gap: 0 15px;
+  margin: 0 0 34px;
+  padding: 0 0 32px;
+  color: #4F6FC1;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 32px;
+  border-bottom: 1px solid #E7E7E7;
+  }
+
+.blanket-info-section__sm-title {
+  margin: 0 0 7px;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: left;
+  line-height: 28px;
+  }
+
+.blanket-info-section__description p {
+  margin: 0 0 19px;
+  color: #221D1E;
+  font-size: 18px;
+  line-height: 28px;
+  }
+
+.blanket-info-section__btn-col {
+  display: flex;
+  justify-content: flex-start;
+  padding: 32px 0 0;
+  border-top: 1px solid #E7E7E7;
+  }
+
+/* 1440 */
+@media (max-width: 1440px) {
+
+.therapy-section__col {
+  grid-template-columns: auto 667px;
+  gap: 0 20px;
+  }
+
+.antistress-section__in {
+  grid-template-columns: 667px auto;
+  }
+
+.hormones-info {
+  left: -19px;
+  }
+
+.blanket-info-section__in {
+  grid-template-columns: 598px auto;
+  gap: 0 43px;
+  }
+
+.blanket-photos {
+  grid-template-columns: 92px auto;
+  }
+
+.blanket-photos__sm-img {
+  height: 92px;
+  }
+
+.blanket-photos__main-img {
+  height: 292px;
+  }
+
+}
+
+/* 1400 */
+@media (max-width: 1400px) {
+
+.therapy-section__col {
+  grid-template-columns: repeat(2, 1fr);
+  }
+
+.therapy-section__text p br {
+  display: none;
+  }
+
+.antistress-section__in {
+  grid-template-columns: repeat(2, 1fr);
+  }
+
+.hormones-info {
+  left: 0;
+  }
+
+.innovations-section__description {
+  padding: 0 650px 0 0;
+  max-width: inherit;
+  }
+
+.innovations__img {
+  width: 600px;
+  }
+
+.characteristics-blanket__text br {
+  display: none;
+  }
+
+.blanket-info-section__in {
+  grid-template-columns: repeat(2, 1fr);
+  }
+
+.blanket-info-section__description p br {
+  display: none;
+  }
+
+.differences-table__text br {
+  display: none;
+  }
+
+.advantages-blanket-section__img {
+  width: 600px;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  }
+
+.advantage-list {
+  gap: 102px 350px;
+  }
+
+.advantage-list__item {
+  padding: 0 !important;
+  }
+
+.advantage-list__title {
+  font-size: 14px;
+  }
+
+.advantage-list p {
+  font-size: 14px;
+  line-height: 24px;
+  }
+
+}
+
+/* 1300 */
+@media (max-width: 1300px) {
+
+.advantages-section {
+  padding: 64px 30px;
+  }
+
+.advantages-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0 30px;
+  }
+
+.advantages-list__item p {
+  font-size: 16px;
+  line-height: 24px;
+  }
+
+.quality-sticker {
+  width: 150px;
+  right: 30px;
+  }
+
+.blanket-img {
+  margin: -350px 0 0;
+  width: 700px;
+  height: 700px;
+  top: 50%;
+  right: -350px;
+  }
+
+.blanket-img > div {
+  width: 700px;
+  height: 700px;
+  }
+
+.innovations-section__description {
+  padding: 0 450px 0 0 !important;
+  }
+
+.innovations-section__description p {
+  line-height: 24px;
+  }
+
+}
+
+/* 1100 */
+@media (max-width: 1100px) {
+
+.hormones-section__gl-title {
+  margin: 0 0 3.27vw;
+  font-size: 2.91vw;
+  line-height: 4.36vw;
+  }
+
+.hormones-section__img {
+  width: 59.09vw;
+  top: 10.91vw;
+  }
+
+.hormones-section__line {
+  top: 16vw;
+  }
+
+.hormones-section__line-img {
+  width: 70.45vw;
+  height: 20.55vw;
+  }
+
+.hormones-info {
+  max-width: 97vw;
+  }
+
+.hormones-info__item {
+  gap: 1.82vw 0;
+  }
+
+.hormones-info__item:nth-child(1) .hormones-info__icon img {
+  width: 2.73vw;
+  }
+
+.hormones-info__item:nth-child(2) .hormones-info__icon img {
+  width: 2.09vw;
+  }
+
+.hormones-info__item:nth-child(3) .hormones-info__icon img {
+  width: 1.82vw;
+  }
+
+.hormones-info__item:first-child {
+  padding: 26vw 0 0;
+  }
+
+.hormones-info__item:last-child {
+  padding: 26vw 0 0;
+  }
+
+.hormones-info__icon {
+  width: 4.55vw;
+  height: 4.55vw;
+  }
+
+.hormones-info__item p {
+  font-size: 1.64vw;
+  line-height: 2.55vw;
+  }
+
+.hormones-section:after {
+  height: 25.45vw;
+  }
+
+.antistress-section__in {
+  gap: 0 40px;
+  }
+
+.antistress-section__description {
+  margin: 0;
+  }
+
+.antistress-info {
+  grid-template-columns: repeat(1, 1fr);
+  gap: 16px 0;
+  }
+
+.university-info {
+  position: relative;
+  gap: 0 16px;
+  }
+
+.university-info__logo {
+  position: absolute;
+  width: 100px;
+  top: 22px;
+  left: 0;
+  }
+
+.university-info__text {
+  padding: 0 0 0 116px;
+  }
+
+.differences-table:after {
+  width: calc(50% - 20px);
+  right: 20px;
+  }
+
+.differences-table__title-col {
+  grid-template-columns: repeat(2, 1fr);
+  }
+
+.differences-table__indent {
+  display: none;
+  }
+
+.differences-table__item {
+  grid-template-columns: repeat(2, 1fr);
+  }
+
+.differences-table__title {
+  position: relative;
+  grid-column: 1 / -1;
+  margin: 0 0 8px;
+  text-align: center;
+  }
+
+.blanket-info-section__in {
+  grid-template-columns: repeat(1, 1fr);
+  gap: 50px 0;
+  }
+
+.blanket-photos {
+  grid-template-columns: 130px auto;
+  } 
+
+.blanket-photos__col {
+  gap: 15px 0;
+  }
+
+.blanket-photos__sm-img {
+  height: 106px;
+  }
+
+.blanket-photos__main-img {
+  height: 350px;
+  }
+
+}
+
+/* 1081 */
+@media (max-width: 1081px) {
+
+.therapy-section__gl-title {
+  font-size: 28px;
+  line-height: 32px;
+  }
+
+.therapy-section__description .gl-title {
+  font-size: 28px;
+  line-height: 32px;
+  }
+
+.antistress-section .gl-title {
+  margin: 0 0 32px;
+  font-size: 32px;
+  line-height: 48px;
+  }
+
+.insomnia-section .gl-title {
+  font-size: 32px;
+  line-height: 48px;
+  }
+
+.innovations-section__description {
+  padding: 0 400px 0 0;
+  }
+
+.innovations-section .gl-title {
+  margin: 0 0 30px;
+  font-size: 32px;
+  line-height: 48px;
+  }
+
+.innovations__img {
+  width: 400px;
+  }
+
+.structure-photos {
+  padding: 32px;
+  }
+
+.unique-structure-section .gl-title {
+  font-size: 32px;
+  line-height: 48px;
+  }
+
+.blanket-gallery {
+  gap: 0 30px;
+  }
+
+.premium-quality-section .gl-title {
+  font-size: 32px;
+  line-height: 48px;
+  }
+
+.differences-section .gl-title {
+  font-size: 32px;
+  line-height: 48px;
+  }
+
+}
+
+/* 960 */
+@media (max-width: 960px) {
+
+.promo-section__title {
+  font-size: 38px;
+  line-height: 50px;
+  }
+
+.promo-section__content p {
+  font-size: 18px;
+  line-height: 24px;
+  }
+
+.advantages-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px 30px;
+  }
+
+.therapy-section__col {
+  display: flex;
+  flex-direction: column;
+  gap: 32px 0;
+  }
+
+.therapy-section__gl-title {
+  margin: 0 0 60px;
+  }
+
+.therapy-section__gl-title br {
+  display: none;
+  }
+
+.therapy-section__description {
+  margin: 0;
+  }
+
+.therapy-section__img {
+  order: -1;
+  height: 500px;
+  }
+
+.therapy-section__img img {
+  position: static;
+  }
+
+.antistress-section__in {
+  position: relative;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 32px 0;
+  padding: 128px 0 0;
+  }
+
+.antistress-section__img {
+  height: 500px;
+  }
+
+.antistress-section .gl-title {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  text-align: center;
+  }
+
+.innovations-section {
+  padding: 350px 28px 57px;
+  background: rgb(255,243,245);
+  background: linear-gradient(0deg, rgba(255,243,245,1) 45%, rgba(141,159,206,1) 100%); 
+  }
+
+.innovations-section__description {
+  padding: 0;
+  }
+
+.innovations__img {
+  width: 350px;
+  height: 350px;
+  }
+
+.quality-sticker {
+  width: 100px;
+  top: 50px;
+  right: -20px;
+  }
+
+.blanket-gallery__text {
+  font-size: 16px;
+  line-height: 26px;
+  }
+
+.characteristics-blanket__text {
+  font-size: 14px;
+  line-height: 18px;
+  }
+
+.movs-blanket__text {
+  font-size: 14px;
+  line-height: 18px;
+  }
+
+.advantages-blanket-section {
+  overflow: hidden;
+  }
+
+.advantages-blanket-section:after {
+  height: auto;
+  top: 207px;
+  }
+
+.advantages-blanket-section__img {
+  position: static;
+  margin: 0 auto 32px;
+  max-width: 520px;
+  width: 100%;
+  transform: inherit;
+  }
+
+.advantage-list {
+  margin: 0 0 50px;
+  gap: 100px 50px;
+  }
+
+.advantages-blanket-section__warning {
+  font-size: 10px;
+  line-height: 20px;
+  }
+
+.innovations-section {
+  padding: 57px 28px;
+  }
+
+.innovations__img {
+  display: none;
+  }
+
+.innovations__img-mobile {
+  display: block;
+  }
+
+.blanket-img {
+  display: none;
+  }
+
+.sticky-spacer {
+  height: inherit;
+  }
+
+.sticky-container {
+  position: static;
+  height: inherit;
+  }
+
+.innovations-section__description {
+  padding: 0 !important;
+  }
+
+.innovations-section__in {
+  padding: 0;
+  height: inherit;
+  }
+
+}
+
+/* 900 */
+@media (max-height: 900px) {
+
+.innovations-section__description {
+  padding: 0 650px 0 0;
+  }
+
+.innovations-section .gl-title {
+  margin: 0 0 30px;
+  }
+
+.innovations-section__description p {
+  margin: 0 0 30px;
+  font-size: 16px;
+  }
+
+.innovations-advantages__item {
+  gap: 0 10px;
+  }
+
+.innovations-advantages__icon {
+  width: 50px;
+  }
+
+.innovations-advantages__title {
+  font-size: 16px;
+  }
+
+}
+
+/* 850 */
+@media (max-width: 850px) {
+
+.differences-table {
+  padding: 40px;
+  }
+
+.differences-table__main-title span {
+  font-size: 14px;
+  line-height: 18px;
+  }
+
+.differences-table__title {
+  font-size: 14px;
+  line-height: 18px;
+  }
+
+.differences-table__number {
+  font-size: 14px;
+  line-height: 18px;
+  }
+
+.differences-table__text {
+  font-size: 14px;
+  line-height: 18px;
+  }
+
+.differences-table__no {
+  width: 12px;
+  height: 12px;
+  background-size: 100%;
+  }
+
+.differences-table__yes {
+  width: 20px;
+  height: 20px;
+  }
+
+.differences-table__yes:before {
+  background-size: 12px 9px;
+  }
+
+}
+
+/* 767 */
+@media (max-width: 767px) {
+
+.promo-section {
+  height: 420px;
+  }
+
+.promo-section__content {
+  padding: 32px 10px;
+  }
+
+.promo-section__title {
+  margin: 0 0 3px;
+  font-size: 30px;
+  line-height: 38px;
+  }
+
+.promo-section__content p {
+  font-size: 14px;
+  line-height: 18px;
+  }
+
+.therapy-section__gl-title {
+  font-size: 20px;
+  line-height: 26px;
+  }
+
+.therapy-section__description .gl-title {
+  margin: 0 0 24px;
+  font-size: 20px;
+  line-height: 26px;
+  }
+
+.therapy-section__text {
+  margin: 0 0 32px;
+  }
+
+.therapy-section__text p {
+  margin: 0 0 8px;
+  font-size: 14px;
+  line-height: 18px;
+  }
+
+.therapy-advantages {
+  display: flex;
+  flex-direction: column;
+  gap: 8px 0;
+  margin: 0 0 34px;
+  }
+
+.therapy-advantages__icon {
+  width: 32px;
+  }
+
+.therapy-advantages__item p {
+  font-size: 14px;
+  line-height: 18px;
+  }
+
+.antistress-section__in {
+  gap: 27px 0;
+  padding: 76px 0 0;
+  }
+
+.antistress-section .gl-title {
+  font-size: 20px;
+  line-height: 26px;
+  }
+
+.antistress-section__img {
+  height: 352px;
+  }
+
+.insomnia-section__content {
+  max-width: 100%;
+  }
+  
+.insomnia-section .gl-title {
+  font-size: 20px;
+  text-align: center;
+  line-height: 26px;
+  }
+
+.insomnia-section__text p br {
+  display: none;
+  }
+  
+.innovations-section .gl-title {
+  margin: 0 0 32px;
+  font-size: 20px;
+  line-height: 26px;
+  }
+
+.innovations-section__description p {
+  margin: 0 0 32px;
+  color: #221D1E;
+  font-size: 14px;
+  line-height: 18px;
+  }
+
+.innovations-section__title {
+  margin: 0 0 24px;
+  font-size: 20px;
+  line-height: 26px;
+  }
+
+.innovations-section__title br {
+  display: block;
+  }
+
+.innovations-advantages__icon {
+  width: 32px;
+  }
+
+.innovations-advantages__title {
+  font-size: 14px;
+  line-height: 18px;
+  }
+
+.unique-structure-section .gl-title {
+  margin: 0 0 16px;
+  font-size: 20px;
+  line-height: 26px;
+  }
+
+.unique-structure-section__text {
+  margin: 0 0 32px;
+  font-size: 14px;
+  line-height: 18px;
+  }
+
+.structure-photos {
+  padding: 25px;
+  }
+
+.quality-sticker {
+  width: 62px;
+  }
+
+.structure-photos__title {
+  margin: 0 0 16px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 26px;
+  }
+
+.blanket-gallery {
+  gap: 0 20px;
+  }
+
+.blanket-gallery__img img {
+  border-radius: 4px;
+  }
+
+.blanket-gallery__text {
+  font-size: 14px;
+  line-height: 18px;
+  }
+
+.premium-quality-section .gl-title {
+  margin: 0 0 32px;
+  font-size: 20px;
+  line-height: 26px;
+  }
+
+.differences-section .gl-title {
+  margin: 0 0 32px;
+  font-size: 20px;
+  line-height: 26px;
+  }
+
+.differences-section .gl-title br {
+  display: none;
+  }
+
+}
+
+/* 700 */
+@media (max-width: 700px) {
+
+.therapy-section {
+  padding: 60px 20px !important;
+  }
+
+.hormones-section {
+  padding: 52px 20px 60px !important;
+  }
+
+.hormones-section:before {
+  position: absolute;
+  display: block;
+  height: 1px;
+  left: 20px;
+  right: 20px;
+  bottom: 0;
+  background: #E7E7E7;
+  content: "";
+  }
+
+.hormones-section:after {
+  height: 122px;
+  top: 250px;
+  bottom: auto;
+  }
+
+.hormones-section__gl-title {
+  margin: 0 0 295px;
+  font-size: 20px;
+  line-height: 26px;
+  }
+
+.hormones-section__gl-title strong {
+  display: block;
+  }
+
+.hormones-section__img {
+  width: 388px;
+  top: 70px;
+  }
+
+.hormones-section__line {
+  display: none;
+  }
+
+.hormones-section__line-mobile {
+  display: block;
+  }
+
+.hormones-info {
+  flex-direction: column;
+  gap: 64px 0;
+  margin: 0 auto;
+  max-width: 335px;
+  }
+
+.hormones-info__item {
+  flex-direction: row;
+  gap: 0 10px;
+  width: 100%;
+  }
+
+.hormones-info__item:first-child {
+  padding: 0;
+  }
+
+.hormones-info__item:nth-child(2) {
+  justify-content: flex-end;
+  }
+
+.hormones-info__item:last-child {
+  padding: 0;
+  }
+
+.hormones-info__item p {
+  font-size: 14px;
+  line-height: 18px;
+  }
+
+.hormones-info__item:nth-child(2) p {
+  text-align: right;
+  }
+
+.hormones-info__icon {
+  flex-shrink: 0;
+  width: 50px;
+  height: 50px;
+  }
+
+.hormones-info__item:nth-child(1) .hormones-info__icon img {
+  width: 30px;
+  }
+
+.hormones-info__item:nth-child(2) .hormones-info__icon img {
+  width: 23px;
+  }
+
+.hormones-info__item:nth-child(3) .hormones-info__icon img {
+  width: 20px;
+  }
+
+.hormones-info__item p {
+  text-align: left;
+  }
+
+.antistress-info {
+  margin: 0 0 32px;
+  gap: 11px 0;
+  }
+
+.antistress-info__item {
+  display: flex;
+  align-items: center;
+  }
+
+.antistress-info__percent {
+  flex-shrink: 0;
+  margin: 0 10px 0 0;
+  min-width: 88px;
+  }
+
+.antistress-info p {
+  font-size: 14px;
+  line-height: 18px;
+  }
+
+.university-info__text {
+  margin: 0 0 11px;
+  font-size: 10px;
+  line-height: 12px;
+  }
+
+.university-info__copy {
+  font-size: 10px;
+  line-height: 12px;
+  }
+
+.antistress-section {
+  padding: 54px 20px 60px !important;
+  }
+
+.insomnia-section {
+  margin: 0 0 60px !important;
+  }
+
+.insomnia-section__main-content {
+  padding: 25px 20px 32px;
+  height: 562px;
+  }
+
+.insomnia-section__text p {
+  font-size: 14px;
+  line-height: 18px;
+  }
+
+.insomnia-section__info {
+  display: none;
+  }
+
+.insomnia-section__text {
+  margin: 0;
+  }
+
+.insomnia-section__mobile-text {
+  display: block;
+  }
+
+.insomnia-section__video {
+  display: none;
+  }
+
+.insomnia-section__mobile-video {
+  display: block;
+  }
+  
+.innovations-section {
+  padding: 32px 20px !important;
+  }
+
+.unique-structure-section {
+  padding: 60px 20px !important;
+  }
+
+.structure-photos {
+  padding: 8px;
+  }
+
+.blanket-gallery {
+  gap: 0 8px;
+  }
+
+.quality-sticker {
+  top: 60px;
+  right: -18px;
+  }
+
+.premium-quality-section {
+  padding: 32px 20px 32px !important;
+  }
+
+.characteristics-blanket {
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px 0;
+  margin: 0 0 20px;
+  }
+
+.movs-blanket {
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px 0;
+  }
+
+.blanket-info-section {
+  padding: 60px 20px 0 !important;
+  }
+
+.blanket-info-section__title {
+  gap: 0 10px;
+  margin: 0 0 20px;
+  padding: 0 0 24px;
+  }
+
+.blanket-info-section__title img {
+  width: 48px;
+  }
+
+.blanket-info-section__title span {
+  font-size: 14px;
+  line-height: 32px;
+  }
+
+.blanket-info-section__sm-title {
+  margin: 0 0 10px;
+  font-size: 13px;
+  line-height: 32px;
+  }
+
+.blanket-info-section__description p {
+  font-size: 14px;
+  line-height: 18px;
+  }
+
+.differences-section {
+  padding: 26px 0 30px !important;
+  overflow: hidden;
+  }
+
+.differences-table {
+  padding: 12px 20px 32px;
+  border-radius: 0;
+  }
+
+.differences-table:after {
+  width: 50%;
+  top: 107px;
+  right: 0;
+  bottom: 32px;
+  }
+
+.differences-table__title-col {
+  gap: 0 20px;
+  }
+
+.differences-table__item {
+  gap: 0 20px;
+  }
+
+.differences-table__title {
+  margin: 0 auto 8px;
+  max-width: 235px;
+  }
+
+.advantages-blanket-section {
+  padding: 60px 20px 32px !important;
+  }
+
+}
+
+/* 700 */
+@media (max-height: 700px) {
+
+.innovations-section .gl-title {
+  font-size: 26px;
+  line-height: 32px;
+  }
+
+.innovations-section__title {
+  font-size: 26px;
+  line-height: 32px;
+  }
+
+.innovations-advantages__icon {
+  width: 40px;
+  }
+
+.innovations-advantages__title {
+  font-size: 14px;
+  }
+
+.innovations-section__description p {
+  font-size: 14px;
+  line-height: 22px;
+  }
+
+}
+
+/* 500 */
+@media (max-width: 500px) {
+
+.promo-section {
+  padding: 0 !important;
+  }
+
+.advantages-section {
+  padding: 32px 20px !important;
+  }
+
+.advantages-list {
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px 0;
+  }
+
+.advantages-list__item {
+  flex-direction: inherit;
+  align-items: center;
+  text-align: left;
+  }
+
+.advantages-list__icon {
+  flex-shrink: 0;
+  margin: 0 20px 0 0;
+  width: 48px;
+  }
+
+.advantages-list__item p {
+  font-size: 14px;
+  line-height: 18px;
+  }
+
+.advantages-list__pc-br {
+  display: none;
+  }
+
+.advantages-list__mobile-br {
+  display: block;
+  }
+
+.therapy-section {
+  padding: 60px 20px !important;
+  overflow: hidden;
+  }
+
+.therapy-section__col {
+  gap: 23px 0;
+  }
+
+.therapy-section__gl-title {
+  margin: 0 -15px 58px;
+  }
+
+.therapy-section__img {
+  height: 352px;
+  }
+
+.button_catalog-icon {
+  width: 100%;
+  }
+
+/* gl-separator */
+.gl-separator {
+  margin: 0 20px;
+  }
+
+.innovations__img {
+  width: 267px;
+  height: 349px;
+  }
+
+.innovations-section .gl-title {
+  margin: 0 0 20px;
+  }
+
+.innovations-section .gl-title__mobile-br {
+  display: block;
+  }
+
+.innovations-section .gl-title__pc-br {
+  display: none;
+  }
+
+.innovations-section__description p {
+  margin: 0 0 21px;
+  }
+
+.innovations-section__title {
+  margin: 0 0 17px;
+  }
+
+.unique-structure-section .gl-title {
+  margin: 0 auto 16px;
+  max-width: 254px;
+  }
+
+.unique-structure-section__text br {
+  display: none;
+  } 
+
+.blanket-gallery__img {
+  height: 246px;
+  }
+
+.blanket-gallery__img img {
+  object-position: left bottom;
+  }
+
+.unique-structure-section {
+  padding: 48px 20px 60px !important;
+  }
+
+.unique-structure-section .gl-title {
+  margin: 0 auto 6px;
+  }
+
+.unique-structure-section__text {
+  margin: 0 0 26px;
+  }
+
+.blanket-gallery__img {
+  margin: 0 0 10px;
+  }
+
+.quality-sticker {
+  right: -9px;
+  }
+
+.blanket-gallery__text {
+  padding: 0 16px;
+  }
+
+.premium-quality-section {
+  padding: 25px 20px 32px !important;
+  }
+
+.characteristics-blanket {
+  gap: 16px 0;
+  margin: 0 0 16px;
+  }
+
+.characteristics-blanket__img {
+  margin: 0 0 15px;
+  height: 270px;
+  }
+
+.characteristics-blanket__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  }
+
+.premium-quality-section .gl-title {
+  margin: 0 0 27px;
+  }
+
+.movs-blanket__item {
+  height: 270px;
+  }
+
+.blanket-info-section__in {
+  gap: 11px 0;
+  }
+
+.blanket-photos {
+  display: flex;
+  flex-direction: column;
+  gap: 15px 0;
+  }
+
+.blanket-photos__main-img {
+  order: -1;
+  height: 200px;
+  }
+
+.blanket-photos__col {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0 18px;
+  }
+
+.blanket-photos__sm-img {
+  width: 100%;
+  height: 100px;
+  }
+
+.blanket-info-section__title {
+  gap: 0 12px;
+  margin: 0 0 12px;
+  padding: 0 0 12px;
+  }
+
+.blanket-info-section__sm-title {
+  margin: 0 0 5px;
+  line-height: 24px;
+  }
+
+.blanket-info-section__description p {
+  margin: 0 0 15px;
+  }
+
+.blanket-info-section__btn-col {
+  padding: 30px 0 0;
+  }
+
+.differences-section .gl-title {
+  margin: 0 auto 23px;
+  max-width: 270px;
+  }
+
+.advantage-list {
+  grid-template-columns: repeat(1, 1fr);
+  gap: 0;
+  margin: 0 0 27px;
+  text-align: left;
+  }
+
+.advantage-list__item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0 19px;
+  margin: 0 0 10px;
+  padding: 0 0 15px !important;
+  border-bottom: 1px solid #E7E7E7;
+  }
+
+.advantage-list__item:last-child {
+  margin: 0;
+  padding: 0 !important;
+  border-bottom: 0;
+  }
+
+.advantage-list__icon {
+  flex-shrink: 0;
+  margin: 10px 0 0;
+  }
+
+.advantage-list__title {
+  margin: 0 0 1px;
+  text-align: left;
+  }
+
+.advantage-list p {
+  max-width: inherit;
+  line-height: 18px;
+  }
+
+.advantages-blanket-section__warning {
+  font-size: 8px;
+  line-height: 11px;
+  }
+
+.insomnia-section__main-content:before {
+  background: rgb(34,29,30);
+  background: linear-gradient(180deg, rgba(34,29,30,0.3) 0%, rgba(34,29,30,0) 100%);
+  }
+
+.advantages-blanket-section__img {
+  position: relative;
+  margin: 0 0 22px;
+  width: 520px;
+  max-width: inherit;
+  left: 50%;
+  transform: translateX(-50%);
+  }
+
+}
+
+/* 375 */
+@media (max-width: 375px) {
+
+.promo-section__content p br {
+  display: block;
+  }
+
+.hormones-section__line-mobile {
+  width: 76.8vw;
+  height: 61.6vw;
+  bottom: 6.13vw;
+  }
+
+.hormones-section__line-mobile-img {
+  width: 76.8vw;
+  height: 61.6vw;
+  }
+
+.hormones-info {
+  gap: 17.07vw 0;
+  max-width: 89.33vw;
+  }
+
+.hormones-info__item {
+  gap: 0 2.67vw;
+  }
+
+.hormones-info__icon {
+  width: 13.33vw;
+  height: 13.33vw;
+  }
+
+.hormones-info__item:nth-child(1) .hormones-info__icon img {
+  width: 8vw;
+  }
+
+.hormones-info__item:nth-child(2) .hormones-info__icon img {
+  width: 6.13vw;
+  }
+
+.hormones-info__item:nth-child(3) .hormones-info__icon img {
+  width: 5.33vw;
+  }
+
+.hormones-info__item p {
+  font-size: 3.73vw;
+  line-height: 4.8vw;
+  }
+
+}
+
+/* 370 */
+@media (max-width: 370px) {
+
+.blanket-gallery__text {
+  padding: 0;
+  }
+
+.blanket-info-section__title {
+  flex-direction: column;
+  gap: 5px 10px;
+  align-items: flex-start;
+  }
+
+.blanket-info-section__title span {
+  line-height: 20px;
+  }
+
+.differences-table__text {
+  font-size: 12px;
+  }
+
+}
