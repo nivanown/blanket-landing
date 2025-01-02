@@ -823,12 +823,13 @@
   top: -190px;
   right: -444px;
   transform: scale(1);
-  transition: all 0.5s ease;
+  transition: all 0.8s ease;
   z-index: 5;
   }
 
 .blanket-img.active {
-  transform: scale(1.1);
+  right: -40%;
+  transform: scale(2.1);
   }
 
 .blanket-img > div {
@@ -837,6 +838,10 @@
   height: 1000px;
   top: 0;
   left: 0;
+  will-change: transform;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  -webkit-font-smoothing: antialiased;
   }
 
 .blanket-img img {
@@ -1415,6 +1420,15 @@
   border-top: 1px solid #E7E7E7;
   }
 
+/* 1750 */
+@media (max-width: 1750px) {
+
+.blanket-img.active {
+  right: -50%;
+  }
+
+}
+
 /* 1440 */
 @media (max-width: 1440px) {
 
@@ -1446,6 +1460,10 @@
 
 .blanket-photos__main-img {
   height: 292px;
+  }
+
+.blanket-img.active {
+  right: -60%;
   }
 
 }
@@ -1517,6 +1535,10 @@
   line-height: 24px;
   }
 
+.blanket-img.active {
+  right: -70%;
+  }
+
 }
 
 /* 1300 */
@@ -1561,6 +1583,10 @@
 
 .innovations-section__description p {
   line-height: 24px;
+  }
+
+.blanket-img.active {
+  right: -55%;
   }
 
 }
@@ -1702,6 +1728,10 @@
 
 .blanket-photos__main-img {
   height: 350px;
+  }
+
+.blanket-img.active {
+  right: -70%;
   }
 
 }
