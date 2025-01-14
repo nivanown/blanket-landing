@@ -2362,6 +2362,9 @@
   }
 
 .insomnia-section__main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
   padding: 25px 20px 32px;
   height: 562px;
   }
@@ -2786,6 +2789,10 @@
   max-width: inherit;
   left: 50%;
   transform: translateX(-50%);
+  }
+
+.sticky-spacer {
+  padding: 0 !important;
   }
 
 }
