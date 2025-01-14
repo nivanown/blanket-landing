@@ -828,8 +828,9 @@
   }
 
 .blanket-img.active {
-  right: -40%;
-  transform: scale(2.1);
+  top: 120%;
+  right: -60%;
+  transform: scale(2.8);
   }
 
 .blanket-img > div {
