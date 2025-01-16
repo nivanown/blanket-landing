@@ -173,3 +173,34 @@ document.addEventListener("DOMContentLoaded", () => {
   //   ">-0.5"
   // );
 });
+
+/*- observe-blanket-img -*/
+document.addEventListener("DOMContentLoaded", () => {
+  const blanketImg = document.querySelector(".blanket-img");
+
+  // Проверяем, существует ли элемент
+  if (!blanketImg) {
+    console.info("Элемент .blanket-img отсутствует на странице.");
+    return;
+  }
+
+  const observerOptions = {
+    root: null, // Обсервация относительно области просмотра
+    rootMargin: "0px", // Без отступов
+    threshold: 0.5, // Элемент считается видимым, если 10% его высоты в зоне видимости
+  };
+
+  const observerCallback = (entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        blanketImg.classList.add("visible");
+      } else {
+        blanketImg.classList.remove("visible");
+      }
+    });
+  };
+
+  const observer = new IntersectionObserver(observerCallback, observerOptions);
+
+  observer.observe(blanketImg);
+});
